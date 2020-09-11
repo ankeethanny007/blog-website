@@ -7,5 +7,5 @@ import { HomepageComponent } from "./../app/components/homepage/homepage.compone
   styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
-  title = "blog-template";
+  title = "ankeethanny-blog";
 }
