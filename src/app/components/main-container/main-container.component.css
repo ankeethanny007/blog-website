@@ -1,0 +1,50 @@
+.container {
+  height: auto;
+  width: 50%;
+  position: absolute;
+  top: 0%;
+  border: 0.5px solid grey;
+  border-radius: 3px;
+  box-shadow: 3px 4px 10px;
+  margin: 0 25%;
+}
+
+.canvas {
+  padding: 1em;
+  text-align: justify;
+}
+
+h1.header {
+  margin: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h4.header-description {
+  text-align: center;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+div.image-section {
+  overflow: hidden;
+}
+
+img.header-image {
+  width: 100%;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+img.header-image:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+span.image-description {
+  font-size: 10px;
+  color: grey;
+  margin-top: 0;
+}

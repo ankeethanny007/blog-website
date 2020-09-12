@@ -1,0 +1,45 @@
+.profile-container {
+  width: 24%;
+  position: fixed;
+  top: 0%;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.profile-canvas {
+  padding: 0.5em;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 80%;
+  margin: 6% 10%;
+}
+
+h2.profile-name {
+  text-transform: capitalize;
+}
+
+.social-media-bar {
+  width: 100%;
+  text-align: center;
+}
+
+.icons {
+  width: 15%;
+  margin: auto;
+  display: inline-block;
+  padding: 6px;
+}
+
+.icons:hover {
+  opacity: 0.8;
+}
+
+.twitter-icon,
+.facebook-icon,
+.linkedin-icon,
+.instagram-icon,
+.website-icon {
+  width: 100%;
+}
