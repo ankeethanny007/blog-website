@@ -1,0 +1,26 @@
+.link-banner-container {
+  position: absolute;
+  top: 110px;
+  right: 7px;
+  width: 23%;
+  border: 1px solid black;
+  border-radius: 3px;
+  max-height: 280px;
+  overflow-x: hidden;
+  /* overflow-y: scroll; */
+}
+
+.link-banner-canvas {
+  margin: 1em;
+}
+
+.blog-links {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .link-banner-container {
+    display: none;
+  }
+}

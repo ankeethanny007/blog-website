@@ -6,11 +6,6 @@
   border-radius: 3px;
 }
 
-@media only screen and (max-width: 768px) {
-  .profile-container {
-    display: none;
-  }
-}
 .profile-canvas {
   padding: 0.5em;
 }
@@ -18,6 +13,7 @@
 .profile-image-name {
   display: flex;
 }
+
 .profile-image {
   border-radius: 50%;
   width: 30%;
@@ -50,4 +46,10 @@ h2.profile-name {
 .instagram-icon,
 .website-icon {
   width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-container {
+    display: none;
+  }
 }

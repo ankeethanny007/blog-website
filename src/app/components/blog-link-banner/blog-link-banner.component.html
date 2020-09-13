@@ -1,1 +1,11 @@
 <p>blog-link-banner works!</p>
+<div class="link-banner-container">
+  <div class="link-banner-canvas">
+    <p class="link-banner-heading">Other Posts which you might like</p>
+    <ul class="blog-links-container">
+      <li class="blog-links" *ngFor="let link of links">
+        <a href="{{ link.link }}">{{ link.name }}</a>
+      </li>
+    </ul>
+  </div>
+</div>
