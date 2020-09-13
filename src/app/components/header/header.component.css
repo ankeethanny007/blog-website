@@ -44,3 +44,34 @@ div.header-link-group a.header-links:hover {
   background-color: rgba(0, 0, 255, 0.6);
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  div.header-container {
+    width: 100%;
+    background-color: white;
+    border-bottom: 0.2px solid black;
+    height: 60px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+  }
+  div.header-canvas {
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    margin-top: 5px;
+  }
+  a.logo img {
+    height: 45px;
+  }
+  div.header-link-group {
+    margin: -45px 0 0 50px;
+  }
+  div.header-link-group a.header-links {
+    padding: 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+  }
+}

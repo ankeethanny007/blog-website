@@ -6,6 +6,11 @@
   border-radius: 3px;
 }
 
+@media only screen and (max-width: 768px) {
+  .profile-container {
+    display: none;
+  }
+}
 .profile-canvas {
   padding: 0.5em;
 }
