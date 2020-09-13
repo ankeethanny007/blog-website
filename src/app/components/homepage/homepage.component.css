@@ -1,0 +1,15 @@
+.main-container {
+  height: auto;
+  width: 50%;
+  position: absolute;
+  top: 110px;
+  border: 0.5px solid grey;
+  border-radius: 3px;
+  box-shadow: 3px 4px 10px;
+  margin: 0 25%;
+}
+
+.main-canvas {
+  padding: 1em;
+  text-align: justify;
+}

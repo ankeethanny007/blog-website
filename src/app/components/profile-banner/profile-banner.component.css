@@ -1,7 +1,7 @@
 .profile-container {
   width: 24%;
   position: fixed;
-  top: 0%;
+  top: 110px;
   border: 1px solid black;
   border-radius: 3px;
 }
@@ -10,14 +10,17 @@
   padding: 0.5em;
 }
 
+.profile-image-name {
+  display: flex;
+}
 .profile-image {
   border-radius: 50%;
-  width: 80%;
-  margin: 6% 10%;
+  width: 30%;
 }
 
 h2.profile-name {
   text-transform: capitalize;
+  margin-left: 35px;
 }
 
 .social-media-bar {

@@ -9,6 +9,9 @@ import { HomepageComponent } from "./components/homepage/homepage.component";
 import { BlogLinkBannerComponent } from "./components/blog-link-banner/blog-link-banner.component";
 import { ProfileBannerComponent } from "./components/profile-banner/profile-banner.component";
 import { HeaderComponent } from './components/header/header.component';
+import { AllPostsComponent } from './components/all-posts/all-posts.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +22,9 @@ import { HeaderComponent } from './components/header/header.component';
     BlogLinkBannerComponent,
     ProfileBannerComponent,
     HeaderComponent,
+    AllPostsComponent,
+    ContactComponent,
+    AboutComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
